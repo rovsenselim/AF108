@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #e78a4d;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.content p {
+    width: 48%;
+    font-size: 16px;
+    color: #333;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box {
+    width: 23%;
+    background-color: #2979cd;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}

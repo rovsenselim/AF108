@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    width: 60%;
+    margin: auto;
+}
+.time {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+}
+.text {
+    font-size: 16px;
+    color: black;
+}
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}

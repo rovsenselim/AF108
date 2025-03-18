@@ -1,0 +1,28 @@
+body {
+   
+    text-align: center;
+    color: #3a2d1f;
+    font-family: 'Playfair Display', serif;
+    padding: 50px;
+}
+.main-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b88941;
+    margin-top: -20px;
+}
+.description {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.crafted-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 26px;
+    color: #b88941;
+    margin-top: 20px;
+}

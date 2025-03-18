@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.cart {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    background: white;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart i {
+    margin-right: 5px;
+}
+
+.cart-count {
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.head{
+    height: 300px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.second{
+    font-size:  20px;
+    color: rgb(200, 200, 200);
+}
+
+
+
+
+
+.main{
+    height: 1000px;
+    background-color: white
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.sales{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.box{
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .list{
+        display: none; /* Menü varsayılan olarak gizli */
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    
+    }
+
+    .cart {
+        width: 100%;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    /* Menü butonu (Hamburger Menü) */
+    
+
+
+
+
+
+    @media (max-width: 768px) {
+        .head {
+            padding: 60px 15px; /* Kiçik ekran üçün azaldılmış padding */
+        }
+    
+        .first {
+            font-size: 2rem; /* Kiçik ekran üçün başlıq ölçüsü azaldıldı */
+        }
+    
+        .second {
+            font-size: 1rem; /* Alt yazı ölçüsü azaldıldı */
+        }
+    }
+    
+    /* === Media Query for Large Screens (Ekran > 1200px) === */
+    @media (min-width: 1200px) {
+        .head {
+            padding: 120px 30px; /* Daha böyük ekranlarda daha çox padding */
+        }
+    
+        .first {
+            font-size: 3rem; /* Böyük ekran üçün başlıq ölçüsü artırıldı */
+        }
+    
+        .second {
+            font-size: 1.4rem; /* Alt yazı ölçüsü artırıldı */
+        }
+    }
+    
+
+
+
+
+
+
+
+
