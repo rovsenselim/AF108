@@ -1,0 +1,19 @@
+.hero {
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 span {
+    color: yellow;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
