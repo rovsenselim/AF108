@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">Logo</div>
+        <div class="right-menu">
+            <div class="dropdown" id="dropdown">
+                <button class="dropbtn" id="dropdown-btn">Daxil ol</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <a href="login.html">Login</a>
+                    <a href="register.html">Register</a>
+                </div>
+            </div>
+            <div id="logout" style="display: none;">
+
+                <a href="basket.html" class="my-basket">Basket</a>
+                <button id="logout-btn">Logout</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="cards">
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="Backpack">
+                <div class="card-content">
+                    <h2 class="card-title">Fjallraven Backpack</h2>
+                    <p class="card-category">Men's Clothing</p>
+                    <p class="card-description">Perfect for daily use and hiking.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$109.95</span>
+                    <div class="card-rating"><span>3.9</span> (120)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="Rain Jacket">
+                <div class="card-content">
+                    <h2 class="card-title">Rain Jacket</h2>
+                    <p class="card-category">Women's Clothing</p>
+                    <p class="card-description">Waterproof and stylish rain jacket.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$39.99</span>
+                    <div class="card-rating"><span>3.8</span> (679)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="White Shirt">
+                <div class="card-content">
+                    <h2 class="card-title">White T-Shirt</h2>
+                    <p class="card-category">Women's Clothing</p>
+                    <p class="card-description">Comfortable and casual white tee.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$9.85</span>
+                    <div class="card-rating"><span>4.7</span> (130)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg" alt="Red V-Neck">
+                <div class="card-content">
+                    <h2 class="card-title">Red V-Neck</h2>
+                    <p class="card-category">Women's Clothing</p>
+                    <p class="card-description">Casual and stylish for everyday wear.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$7.95</span>
+                    <div class="card-rating"><span>4.5</span> (146)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg" alt="Be Kind Shirt">
+                <div class="card-content">
+                    <h2 class="card-title">Be Kind Shirt</h2>
+                    <p class="card-category">Women's Clothing</p>
+                    <p class="card-description">Spread kindness with this comfy tee.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$12.99</span>
+                    <div class="card-rating"><span>3.6</span> (145)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="Rain Jacket">
+                <div class="card-content">
+                    <h2 class="card-title">Leather Jacket</h2>
+                    <p class="card-category">Women's Clothing</p>
+                    <p class="card-description">Perfect for a bold and stylish look.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$29.95</span>
+                    <div class="card-rating"><span>2.9</span> (340)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="Purple Hoodie">
+                <div class="card-content">
+                    <h2 class="card-title">Purple Hoodie</h2>
+                    <p class="card-category">Women's Clothing</p>
+                    <p class="card-description">Casual zip-up hoodie with comfort.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$56.99</span>
+                    <div class="card-rating"><span>2.6</span> (235)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg" alt="Samsung Monitor">
+                <div class="card-content">
+                    <h2 class="card-title">Samsung 49-Inch</h2>
+                    <p class="card-category">Electronics</p>
+                    <p class="card-description">Ultra-wide QLED gaming monitor.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$999.99</span>
+                    <div class="card-rating"><span>2.2</span> (140)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="Backpack">
+                <div class="card-content">
+                    <h2 class="card-title">Travel Backpack</h2>
+                    <p class="card-category">Men's Clothing</p>
+                    <p class="card-description">Sturdy backpack for all occasions.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$89.99</span>
+                    <div class="card-rating"><span>4.0</span> (98)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="White T-Shirt">
+                <div class="card-content">
+                    <h2 class="card-title">Slim Fit T-Shirt</h2>
+                    <p class="card-category">Men's Clothing</p>
+                    <p class="card-description">Comfortable slim fit shirt for men.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$11.95</span>
+                    <div class="card-rating"><span>4.5</span> (210)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg" alt="Black Jacket">
+                <div class="card-content">
+                    <h2 class="card-title">Black Jacket</h2>
+                    <p class="card-category">Men's Clothing</p>
+                    <p class="card-description">Trendy and sleek black jacket.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$59.99</span>
+                    <div class="card-rating"><span>3.5</span> (88)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-regular fa-heart heart-icon"></i>
+                <img src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg" alt="Electronics">
+                <div class="card-content">
+                    <h2 class="card-title">Gaming Display</h2>
+                    <p class="card-category">Electronics</p>
+                    <p class="card-description">High-resolution monitor for gaming.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="card-price">$599.00</span>
+                    <div class="card-rating"><span>2.9</span> (250)</div>
+                    <button class="add-basket" data-product-id="1">Add Basket</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
