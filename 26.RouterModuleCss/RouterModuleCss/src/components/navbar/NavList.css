@@ -1,0 +1,14 @@
+.list {
+    display: flex;
+    gap: 20px;
+}
+
+.list-item {
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
