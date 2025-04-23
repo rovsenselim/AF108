@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+}
+
+.counter-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.top-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.top-controls button {
+    background-color: #26c6da;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+    padding: 12px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.top-controls button:hover {
+    background-color: #00acc1;
+    transform: scale(1.1);
+}
+
+.count-display {
+    font-size: 36px;
+    font-weight: bold;
+    color: #006064;
+}
+
+.bottom-controls input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #26c6da;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.bottom-controls input:focus {
+    border-color: #00acc1;
+}
+
+.input-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-buttons button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #26c6da;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.input-buttons button:hover {
+    background-color: #00acc1;
+    transform: translateY(-2px);
+}
