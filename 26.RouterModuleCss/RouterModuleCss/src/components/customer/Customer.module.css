@@ -1,0 +1,34 @@
+.customer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* ekranın hündürlüyü qədər */
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.customer h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.customer>p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+    max-width: 600px;
+}
+
+.client {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
