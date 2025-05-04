@@ -1,0 +1,42 @@
+.product-detail {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+.product-detail img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.counter button {
+    padding: 5px 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(49, 243, 46);
+    color: white;
+    font-weight: bold;
+
+}
+
+.addbasket {
+    padding: 5px 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: rgb(49, 243, 46);
+    color: white;
+    font-weight: bold;
+
+}
