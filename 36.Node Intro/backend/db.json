@@ -1,0 +1,18 @@
+{
+    "Students": [
+        {
+            "id": "1",
+            "name": "Yusif",
+            "surname": "Əliyev",
+            "age": "20",
+            "isStudent": "true"
+        },
+        {
+            "id": "2",
+            "name": "Murad",
+            "surname": "Abbasov",
+            "age": "20",
+            "isStudent": "true"
+        }
+    ]
+}
